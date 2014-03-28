@@ -37,6 +37,8 @@
 #
 class base {
 
+  include ::motd
+
   include ::ssh
   ::ssh::server::configline { 'PermitRootLogin': value => 'yes' }
 
