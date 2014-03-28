@@ -53,7 +53,7 @@ class base {
     id       => 'dave',
     uid      => '507',
     pass     => $defaultpass,
-    realname => 'Dave Smith',
+    realname => 'Dave G. Smith - IT Administrator',
     sgroups  => [],
   }
 
